@@ -118,9 +118,9 @@ def masuk():
 	except (KeyError,IOError):
 		os.system('clear')
 		logo()
-		print(" ? \033[0;95m Ketik '\033[0;95milhmR\033[0;95m' Untuk Mendapatkan Token Gratis.")
+		print("\033[0;95m Ketik '\033[0;95m ilhmr \033[0;95m' Untuk Mendapatkan Token Gratis.")
 		token = raw_input(" masukin token nya ngap : ")
-		if token == "ilhmR":
+		if token == "ilhmr":
 			os.system("xdg-open https://free.facebook.com/100008065235213/posts/3002983643313781/?app=fbl")
 			exit(" ! Jangan Lupa React Love wak:v")
 		try:
